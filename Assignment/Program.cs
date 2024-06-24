@@ -17,6 +17,13 @@
 
             #endregion
 
+            #region 2.Write C# program that Convert a string to an integer, but the string contains non-numeric characters. And mention what will happen 
+
+            /*string Charchter = "Israa";
+               int Num = Convert.ToInt32(Charchter);
+               Console.WriteLine(Num);*/
+            // Can't convert string to an integer 
+            #endregion
 
         }
     }
