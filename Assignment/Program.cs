@@ -7,7 +7,6 @@
 
             //Assignment 2
 
-
             #region 1.Write a program that allows the user to enter a number then print it.
 
             /*Console.Write("Please Enter Number ");
@@ -42,6 +41,13 @@
             float number = Num1 * Num2;
             Console.WriteLine(number);
 
+            #endregion
+
+            #region 4.Write C# program that Extract a substring from a given string.
+
+            /*string ST1 = "Haidy.Sobhy";
+            string substring = ST1.Substring(0,5);
+            Console.WriteLine(substring);*/
             #endregion
         }
     }
