@@ -49,6 +49,17 @@
             string substring = ST1.Substring(0,5);
             Console.WriteLine(substring);*/
             #endregion
+
+            #region 5.Write C# program that Assigning one value type variable to another and modifying the value of one variable and mention what will happen
+            /*int x ;
+            x = 10;
+            int y;
+            y = x;
+            Console.WriteLine(y);
+            x = 20;
+            Console.WriteLine(y);*/
+
+            #endregion
         }
     }
 }
