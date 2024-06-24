@@ -25,6 +25,24 @@
             // Can't convert string to an integer 
             #endregion
 
+            #region 3.Write C# program that Perform a simple arithmetic operation with floating-point numbers And mention what will happen
+
+            float Num1 = 55.5f;
+            float Num2 = 66.6f;
+
+            // Perform addition
+            float Sum = Num1 + Num2;
+            Console.WriteLine(Sum);
+
+            // Perform division
+            float divided = Num1 / Num2;
+            Console.WriteLine(divided);
+
+            // Perform multiplication
+            float number = Num1 * Num2;
+            Console.WriteLine(number);
+
+            #endregion
         }
     }
 }
