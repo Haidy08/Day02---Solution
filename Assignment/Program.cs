@@ -1,6 +1,13 @@
-﻿namespace Assignment
+﻿using System.Runtime.InteropServices;
+
+namespace Assignment
 {
-    class Program
+    class point
+    {
+        public int num1;
+        public int num2;
+    }
+        class Program
     {
         public static void Main()
         {
@@ -26,20 +33,20 @@
 
             #region 3.Write C# program that Perform a simple arithmetic operation with floating-point numbers And mention what will happen
 
-            float Num1 = 55.5f;
-            float Num2 = 66.6f;
+            /* float Num1 = 55.5f;
+             float Num2 = 66.6f;
 
-            // Perform addition
-            float Sum = Num1 + Num2;
-            Console.WriteLine(Sum);
+             // Perform addition
+             float Sum = Num1 + Num2;
+             Console.WriteLine(Sum);
 
-            // Perform division
-            float divided = Num1 / Num2;
-            Console.WriteLine(divided);
+             // Perform division
+             float divided = Num1 / Num2;
+             Console.WriteLine(divided);
 
-            // Perform multiplication
-            float number = Num1 * Num2;
-            Console.WriteLine(number);
+             // Perform multiplication
+             float number = Num1 * Num2;
+             Console.WriteLine(number);*/
 
             #endregion
 
@@ -60,6 +67,24 @@
             Console.WriteLine(y);*/
 
             #endregion
+
+            #region 6.Write C# program that Assigning one reference type variable to another and modifying the object through one variable and mention what will happen
+
+          /*  point p1;
+            p1 = new point();
+
+            point p2;
+            p2 = new point();
+
+            Console.WriteLine(p1.num1);
+            p1.num2 = 2;
+            p1.num1 = 1;
+            Console.WriteLine(p1);
+            p2 = p1;
+            Console.WriteLine(p2.num1);*/
+
+
+            #endregion
         }
-    }
+}
 }
